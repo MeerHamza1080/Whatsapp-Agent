@@ -1,2 +1,14 @@
-# Whatsapp-Agent
-it will give reply  So on whatsapp so it will give automated message
+{
+  "name": "whatsapp-grok-bot",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "express": "latest",
+    "pino": "latest",
+    "qrcode": "latest"
+  }
+}
